@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RFID Demo</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.2/socket.io.js"></script>
+
+</head>
+<body>
+
+
+<button id="start">开始</button>
+<button id="stop">暂停</button>
+<p id="num" value="0">0</p>
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+            // var btn_send = document.getElementById("start"); //连接按钮
+
+            //建立长连接
+            var  websocket_url = location.protocol + '//' + document.domain + ':' + location.port + '/XXXprojext';
+            var socket = io.connect(websocket_url);
+
+            //给服务端发消息
+            socket.emit('request_for_response',{'code': 200, 'from_server': 'Success!'});
+
+            //响应服务端的回调函数，告知服务端，客户端已收到消息
+            socket.on('response', function (resv, ack) {
+                console.log(resv);
+                ack('client received');
+            });
+
+            // 点击开始按钮
+            $("#start").on('click', function (){
+
+                socket.emit('do_somrthing');
+            });
+
+            // 点击暂停按钮
+            $("#stop").on('click', function (){
+
+                socket.emit('stop_send_data');
+            });
+
+            //接收do_something方法返回的数据
+            socket.on('do_somrthing', function (res) {
+                    var num = document.getElementById('num');
+                    num.innerHTML = res.num;
+                });
+        });
+</script>
+
+
+</body>
+</html>
