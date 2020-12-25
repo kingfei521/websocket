@@ -1,0 +1,8 @@
+2020-12-25 10:10:42.454 | INFO     | __main__:test_connect:40 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-25 10:10:42.459 | INFO     | __main__:ack:29 - Connection is successful
+2020-12-25 10:10:51.037 | INFO     | __main__:test_connect:40 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-25 10:10:51.038 | INFO     | __main__:ack:29 - Connection is successful
+2020-12-25 10:12:07.995 | INFO     | __main__:test_connect:39 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-25 10:12:08.000 | INFO     | __main__:ack:28 - Connection is successful
+2020-12-25 10:12:22.441 | INFO     | __main__:test_connect:39 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-25 10:12:22.445 | INFO     | __main__:ack:28 - Connection is successful
