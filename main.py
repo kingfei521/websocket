@@ -1,23 +1,29 @@
-from typing import Optional
-
 import random
-from threading import Lock
+import threading
+from threading import Lock, Thread, Event
 from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
 from loguru import logger
+import eventlet
 
 
 async_mode = None
 app = Flask(__name__)
 
+
+eventlet.monkey_patch()
+
 CORS(app, supports_credentials=True)
 app.config['SECRET_KEY'] = 'secret!'
+app.config['DEBUG'] = True
 socketio = SocketIO(app, cors_allowed_origins="*")
-close = False
-thread = None
-thread_lock = Lock()
+
+thread = Thread()
+thread_stop_event = Event()
 logger.add('flask.log')
+
+
 
 @app.route('/')
 def index():
@@ -42,33 +48,29 @@ def test_connect(data: dict):
 
 @socketio.on('stop_send_data', namespace="/XXXprojext")
 def stop_out():
-    global thread, close
-    close = True
-    thread = None
+    global thread_stop_event
+    thread_stop_event.set()
 
 
 @socketio.on('do_somrthing', namespace='/XXXprojext')
 def handle_my_custom_event():
-    global thread, close
-    with thread_lock:
-        if thread is None:
-            close = False
-            thread = socketio.start_background_task(target=background_thread_task)
-        else:
-            socketio.emit('tail_response', {'msg': 'Resources occupied......'}, namespace='/XXXprojext')
+    global thread, thread_stop_event
+    thread_stop_event.clear()
+    if not thread.is_alive():  # thread.is_alive() 如果线程已经启动，并且当前没有任何异常的话，则返回true；
+        thread = socketio.start_background_task(target=background_thread_task)
+    else:
+        socketio.emit('tail_response', {'msg': 'Resources occupied......'}, namespace='/XXXprojext')
 
 
 def background_thread_task():
-    while not close:
+    while not thread_stop_event.isSet():
         i = random.randint(0,100)
         socketio.sleep(0.1)
         socketio.emit('do_somrthing', {"num": i}, namespace='/XXXprojext')
-    socketio.stop()
-    return {"over"}
 
 
 if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', debug=True)
+    socketio.run(app, host='0.0.0.0')
 
 
 
