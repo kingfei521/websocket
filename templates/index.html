@@ -2,42 +2,113 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>RFID Demo</title>
+    <title>RFID Tool</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.2/socket.io.js"></script>
+    <link rel="stylesheet" href="../static/css/tablesone.css">
 
 </head>
+
+<style>
+    .datetime {width: 14%;}
+    .epc {width: 18%;}
+    .tid {width: 20%;}
+    .common_style {width: 9%;}
+    .tbl-content tbody tr:nth-of-type(odd){
+        background-color: #1f5f5f;
+    }
+    .tbl-content tbody tr:nth-of-type(even){
+        background-color: #1bffb336;
+    }
+</style>
+
 <body>
 
 <input type="text" value="1" id="quantity">
 <button id="start">开始</button>
 <button id="stop">暂停</button>
-<div class="container">
-  <div class="jumbotron">
-    <h1>异步通讯Flask</h1>
-    <p>一键启动，暂停实时局部数据打印,可输入数字实时展示个数，然后结合实际场景变换，修改即可</p>
-    <p>github <a href='https://github.com/kingfei521/websocket.git' target='_blank'>here.</a></p>
-  </div>
-</div>
 
-</div>
 
-<div class="container" id="content">
-    <div class="row">
-        <p>下面的数据也可以局部刷新一个:</p>
-        <h3>Number list:</h3>
-        <div id="poi">
-        </div> <!-- /#log -->
+<h1>RFID Reader</h1>
+
+<section>
+  <!--for demo wrap-->
+    <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+                <tr>
+                    <th class="datetime">DateTime</th>
+                    <th class="epc">EPC</th>
+                    <th class="tid">Tid</th>
+                    <th class="common_style">Status</th>
+                    <th class="common_style">RSSI</th>
+                    <th class="common_style">ANType</th>
+                    <th class="common_style">Distance</th>
+                    <th class="common_style">dB</th>
+                </tr>
+            </thead>
+
+        </table>
     </div>
-</div>
+<!--    # data area-->
+    <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody class="insert">
+                <tr>
+                    <td class="datetime">2020/12/31 00:59:59.134</td>
+                    <td class="epc">123456000000030100134038</td>
+                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
+                    <td class="common_style">0040</td>
+                    <td class="common_style">-90</td>
+                    <td class="common_style">900M</td>
+                    <td class="common_style">79</td>
+                    <td class="common_style">20</td>
+                </tr>
+
+                <tr>
+                    <td class="datetime">2020/12/31 00:59:59.134</td>
+                    <td class="epc">123456000000030100134345</td>
+                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
+                    <td class="common_style">8040</td>
+                    <td class="common_style">-94</td>
+                    <td class="common_style">800M</td>
+                    <td class="common_style">79</td>
+                    <td class="common_style">20</td>
+                </tr>
+
+            <tr>
+                    <td class="datetime">2020/12/31 00:59:59.134</td>
+                    <td class="epc">123456000000030100134345</td>
+                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
+                    <td class="common_style">8040</td>
+                    <td class="common_style">-94</td>
+                    <td class="common_style">800M</td>
+                    <td class="common_style">79</td>
+                    <td class="common_style">20</td>
+                </tr>
+            <tr>
+                    <td class="datetime">2020/12/31 00:59:59.134</td>
+                    <td class="epc">123456000000030100134345</td>
+                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
+                    <td class="common_style">8040</td>
+                    <td class="common_style">-94</td>
+                    <td class="common_style">800M</td>
+                    <td class="common_style">79</td>
+                    <td class="common_style">20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
 <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-            // var btn_send = document.getElementById("start"); //连接按钮
 
+    $(document).ready(function() {
             //建立长连接
             var  websocket_url = location.protocol + '//' + document.domain + ':' + location.port + '/XXXprojext';
             var socket = io.connect(websocket_url);
             var numbers_received = [];
+
             //给服务端发消息建立连接
             socket.emit('request_for_response',{'code': 200, 'from_server': 'Success!'});
 
@@ -63,22 +134,15 @@
             socket.on('do_somrthing', function (res) {
 
                     var quantity = $('#quantity').val();
-                    if (quantity < numbers_received.length){
-                        numbers_received.length = quantity;
-                    }
-
-                    if (numbers_received.length >= quantity){
-                        numbers_received.shift();
-                    }
-
+                    if (quantity < numbers_received.length){numbers_received.length = quantity;}
+                    if (numbers_received.length >= quantity){numbers_received.shift();}
                     numbers_received.push(res.num);
-
                     // console.log(numbers_received)
                     numbers_string = '';
                     for (var i = 0; i < numbers_received.length; i++){
-                        $('#poi').html('');
-                        numbers_string = numbers_string + '<p>' + numbers_received[i].toString() + '</p>';
-                        $('#poi').html(numbers_string);
+                        $('.insert').html('');
+                        numbers_string = numbers_string + '<tr>' + '<td>' + numbers_received[i].toString() + '</td>' + '</tr>';
+                        $('.insert').html(numbers_string);
                     }
 
 

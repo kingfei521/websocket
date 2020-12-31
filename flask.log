@@ -80,3 +80,595 @@
 2020-12-26 00:38:45.572 | INFO     | __main__:ack:34 - client received is successful
 2020-12-26 00:41:18.834 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
 2020-12-26 00:41:18.847 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 12:57:33.628 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 12:57:33.632 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 12:59:26.713 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 12:59:26.720 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:00:53.336 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:00:53.338 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:01:42.239 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:01:42.251 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:01:43.415 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:01:43.419 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:02:32.706 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:02:32.707 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:07:51.818 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:07:51.829 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:08:28.410 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:08:28.422 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:09:55.565 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:09:55.566 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:09:56.287 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:09:56.292 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:09:56.834 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:09:56.835 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:09:58.226 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:09:58.230 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:08.157 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:08.159 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:14.847 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:14.848 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:15.770 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:15.775 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:16.087 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:16.092 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:16.279 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:16.283 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:16.489 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:16.499 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:16.876 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:16.880 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:27.304 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:27.306 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:27.731 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:27.787 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:10:58.682 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:10:58.683 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:11:02.835 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:11:02.840 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:11:04.335 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:11:04.339 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:11:53.987 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:11:53.991 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:13:21.978 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:13:21.979 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:13:24.493 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:13:24.497 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:13:57.029 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:13:57.030 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:17:43.356 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:17:43.357 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:17:44.132 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:17:44.137 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:19:33.901 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:19:33.902 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:19:45.008 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:19:45.009 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:20:52.963 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:20:52.965 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:24:06.168 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:24:06.178 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:24:07.452 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:24:07.458 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:26:12.869 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:26:12.870 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:26:14.502 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:26:14.507 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:27:44.607 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:27:44.608 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:27:45.932 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:27:45.937 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:28:37.569 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:28:37.570 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:28:38.851 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:28:38.857 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:28:39.467 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:28:39.471 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:28:39.901 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:28:39.923 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 13:45:32.942 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 13:45:32.944 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:13:20.950 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:13:20.951 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:13:22.015 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:13:22.020 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:13:26.639 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:13:26.640 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:13:45.586 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:13:45.588 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:25:40.831 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:25:40.842 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:26:39.029 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:26:39.031 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:29:57.367 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:29:57.371 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:30:27.225 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:30:27.238 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:30:55.346 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:30:55.359 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:31:07.818 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:31:07.820 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:31:09.322 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:31:09.380 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:31:22.836 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:31:22.850 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:31:40.576 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:31:40.590 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:31:48.813 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:31:48.873 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:35:15.448 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:35:15.460 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:38:05.148 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:38:05.160 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:40:13.260 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:40:13.261 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:40:14.436 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:40:14.440 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:41:33.585 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:41:33.587 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:42:12.778 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:42:12.780 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:43:05.681 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:43:05.685 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:43:14.844 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:43:14.850 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:44:14.396 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:44:14.399 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:44:30.378 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:44:30.397 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:44:51.609 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:44:51.630 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:45:27.694 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:45:27.697 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:45:46.237 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:45:46.240 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:46:43.253 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:46:43.273 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:46:58.770 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:46:58.773 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:47:26.739 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:47:26.741 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:48:25.619 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:48:25.621 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:49:56.491 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:49:56.494 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:50:51.295 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:50:51.297 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:50:52.521 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:50:52.526 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:51:48.121 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:51:48.140 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:53:25.646 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:53:25.650 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:55:04.824 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:55:04.828 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:56:08.835 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:56:08.836 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:56:09.945 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:56:09.951 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:56:10.775 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:56:10.786 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 14:59:04.368 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 14:59:04.381 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:00:19.746 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:00:19.757 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:26:51.707 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:26:51.709 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:26:52.305 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:26:52.310 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:33:55.884 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:33:56.097 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:34:18.006 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:34:18.011 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:34:27.956 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:34:27.958 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:34:28.389 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:34:28.390 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:34:52.661 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:34:52.663 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:05.453 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:05.455 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:06.079 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:06.083 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:06.370 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:06.373 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:06.652 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:06.657 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:06.916 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:06.920 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:15.855 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:15.858 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:26.116 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:26.133 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:35:58.228 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:35:58.230 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:40:07.490 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:40:07.492 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:40:49.032 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:40:49.034 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:46:13.367 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:46:13.369 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:52:08.246 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:52:08.248 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:53:06.791 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:53:06.802 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:53:56.467 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:53:56.468 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:54:35.505 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:54:35.509 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:54:59.074 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:54:59.086 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:58:26.293 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:58:26.295 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:58:41.365 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:58:41.367 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:58:58.092 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:58:58.094 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 15:59:06.090 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 15:59:06.147 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:00:11.589 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:00:11.590 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:02:05.608 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:02:05.610 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:02:36.004 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:02:36.005 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:02:43.923 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:02:43.984 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:29.967 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:29.968 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:54.537 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:54.539 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:55.295 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:55.352 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:55.927 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:55.931 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:56.194 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:56.199 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:57.155 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:57.159 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:08:57.689 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:08:57.693 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:09:12.338 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:09:12.340 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:09:13.692 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:09:13.697 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:09:22.069 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:09:22.076 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:10:16.254 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:10:16.256 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:10:31.116 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:10:31.117 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:11:44.661 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:11:44.675 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:11:54.719 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:11:54.722 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:12:21.787 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:12:21.849 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:12:26.637 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:12:26.639 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:14:50.710 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:14:50.722 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:14:52.050 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:14:52.055 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:15:45.900 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:15:45.902 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:17:02.182 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:17:02.184 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:23:49.172 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:23:49.174 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:23:55.859 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:23:55.861 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:24:03.205 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:24:03.211 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:24:12.804 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:24:12.806 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:24:13.561 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:24:13.563 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:24:37.793 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:24:37.794 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:24:44.251 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:24:44.254 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:25:38.853 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:25:38.860 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:25:41.981 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:25:41.983 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:25:43.843 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:25:43.845 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:25:44.774 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:25:44.776 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:25:47.264 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:25:47.266 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:25:56.136 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:25:56.141 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:26:02.245 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:26:02.247 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:26:49.753 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:26:49.755 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:27:12.196 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:27:12.198 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:28:25.788 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:28:25.790 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:28:30.261 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:28:30.263 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:28:32.395 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:28:32.397 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:29:17.522 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:29:17.534 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:29:19.877 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:29:19.879 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:29:24.125 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:29:24.131 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:29:29.951 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:29:29.953 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:29:30.542 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:29:30.544 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:30:41.292 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:30:41.297 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:30:45.296 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:30:45.303 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:30:52.368 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:30:52.370 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:31:06.052 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:31:06.054 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:31:08.249 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:31:08.259 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:31:41.339 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:31:41.341 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:31:44.014 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:31:44.015 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:32:05.678 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:32:05.689 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:32:08.487 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:32:08.498 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:38:29.985 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:38:29.987 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:38:32.159 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:38:32.161 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:38:47.254 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:38:47.264 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:38:48.706 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:38:48.719 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:38:57.629 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:38:57.650 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:39:08.097 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:39:08.106 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:39:10.091 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:39:10.097 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:39:19.573 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:39:19.600 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:39:51.142 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:39:51.167 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:39:53.992 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:39:54.004 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:40:22.776 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:40:22.783 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:02.808 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:02.810 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:07.204 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:07.261 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:30.174 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:30.176 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:33.443 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:33.444 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:34.948 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:34.953 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:35.515 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:35.519 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:35.930 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:35.934 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:36.282 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:36.291 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:36.486 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:36.507 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:38.060 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:38.113 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:39.542 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:39.546 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:41:42.111 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:41:42.113 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:44:08.002 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:44:08.004 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:50:37.776 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:50:37.779 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:50:42.231 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:50:42.235 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:50:59.817 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:50:59.818 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:07.852 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:07.912 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:09.565 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:09.567 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:40.385 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:40.387 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:41.792 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:41.800 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:42.539 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:42.581 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:43.129 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:43.133 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:51:43.587 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:51:43.592 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:52:01.283 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:52:01.285 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:52:02.103 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:52:02.158 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:52:02.436 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:52:02.441 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:52:43.878 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:52:43.880 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:52:44.882 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:52:44.884 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:52:51.650 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:52:51.651 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:53:11.156 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:53:11.158 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:53:13.758 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:53:14.023 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 16:54:23.514 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 16:54:23.527 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:28:20.335 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:28:20.336 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:35:20.573 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:35:20.574 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:36:43.347 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:36:43.350 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:41:12.376 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:41:12.379 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:46:28.706 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:46:28.708 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:46:37.752 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:46:37.764 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:50:01.815 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:50:01.817 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 17:57:28.794 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 17:57:28.796 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:04:10.621 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:04:10.624 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:04:15.899 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:04:15.901 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:09:07.666 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:09:07.669 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:10:05.576 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:10:05.578 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:20:45.248 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:20:45.251 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:42:23.776 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:42:23.779 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:45:05.486 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:45:05.488 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:45:11.382 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:45:11.385 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:45:58.881 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:45:58.883 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:46:03.095 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:46:03.099 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:46:34.257 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:46:34.260 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:49:05.901 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:49:05.903 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:49:12.065 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:49:12.068 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:53:03.761 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:53:03.763 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:54:15.781 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:54:15.782 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:57:23.547 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:57:23.548 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:57:24.757 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:57:24.759 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:57:25.711 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:57:25.713 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:57:33.030 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:57:33.033 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:57:36.049 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:57:36.054 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 18:57:39.787 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 18:57:39.790 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:10:16.531 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:10:16.533 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:10:17.786 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:10:17.788 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:14:06.777 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:14:06.779 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:16.855 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:16.857 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:19.443 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:19.446 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:24.595 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:24.600 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:34.194 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:34.198 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:34.929 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:34.933 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:42.534 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:42.780 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:43.807 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:43.813 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:54.570 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:54.573 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:56.843 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:56.846 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:57.394 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:57.396 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:17:59.755 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:17:59.758 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:18:19.596 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:18:19.603 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:18:22.162 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:18:22.165 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:19:21.124 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:19:21.126 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:19:23.257 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:19:23.259 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:19:28.834 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:19:28.837 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:19:49.249 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:19:49.251 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:19:57.673 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:19:57.677 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:20:13.541 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:20:13.543 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:22:54.276 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:22:54.278 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:26:58.473 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:26:58.477 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:27:10.993 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:27:10.996 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:27:46.281 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:27:46.283 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:31:54.666 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:31:54.669 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:32:36.225 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:32:36.228 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:33:34.181 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:33:34.184 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:33:51.483 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:33:51.485 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:33:55.336 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:33:55.339 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:34:26.909 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:34:26.913 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:36:26.215 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:36:26.218 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:36:48.142 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:36:48.145 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:40:46.020 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:40:46.023 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:42:37.734 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:42:37.738 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 19:43:05.969 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 19:43:05.973 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:04:36.289 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:04:36.292 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:04:44.690 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:04:44.695 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:05:31.146 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:05:31.149 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:05:43.187 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:05:43.189 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:10:02.720 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:10:02.723 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:10:44.263 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:10:44.265 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:11:51.393 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:11:51.395 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:14:32.379 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:14:32.382 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:15:23.572 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:15:23.577 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:17:05.892 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:17:05.894 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:17:13.395 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:17:13.397 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:17:19.369 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:17:19.370 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:17:50.526 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:17:50.528 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:19:13.018 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:19:13.020 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:19:16.571 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:19:16.630 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:19:19.141 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:19:19.197 | INFO     | __main__:ack:34 - client received is successful
+2020-12-31 20:19:26.112 | INFO     | __main__:test_connect:45 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2020-12-31 20:19:26.114 | INFO     | __main__:ack:34 - client received is successful
