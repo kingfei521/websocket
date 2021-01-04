@@ -5,7 +5,7 @@
 	background-color: #1f5f5f;
 	color: #fff;
 	border: 0;
-	position: absolute;
+	/*position: absolute;*/
 	transition: all 200ms ease;
 }
 .btn.btn-round {
@@ -35,10 +35,13 @@
 	border-radius: 10px;
 }
 
-.btn9 {
-	margin-left: 650px;
+.btn-red {
+	background-color: #ec1360;
 }
 
+.btn-green {
+	background-color: #1bff22;
+}
 
 
 
