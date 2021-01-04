@@ -1,3 +1,4 @@
+import csv
 import random
 import threading
 from threading import Lock, Thread, Event
@@ -50,7 +51,7 @@ def test_connect(data: dict):
 def stop_out():
     global thread_stop_event
     thread_stop_event.set()
-
+    logger.debug(thread_stop_event.isSet())
 
 @socketio.on('do_somrthing', namespace='/XXXprojext')
 def handle_my_custom_event():
@@ -63,10 +64,25 @@ def handle_my_custom_event():
 
 
 def background_thread_task():
-    while not thread_stop_event.isSet():
-        i = random.randint(0,100)
-        socketio.sleep(0.1)
-        socketio.emit('do_somrthing', {"num": i}, namespace='/XXXprojext')
+    while 1:
+        # logger.debug('jinlail')
+        with open('data.csv') as f:
+            csva = csv.reader(f)
+            # headers = next(csva)
+            for row in csva:
+                if thread_stop_event.isSet():
+                   exit()
+                json_data = {
+                   "Time": row[1],
+                   'Epc': row[2],
+                   'Tid': row[3],
+                   'Status': row[4],
+                   'Rssi': row[5],
+                   'Distance': row[6],
+                   'dB': row[7],
+                }
+                socketio.sleep(0.1)
+                socketio.emit('do_somrthing', {"data": json_data}, namespace='/XXXprojext')
 
 
 if __name__ == '__main__':

@@ -23,7 +23,7 @@
 
 <body>
 
-<input type="text" value="1" id="quantity">
+<!--<input type="text" value="1" id="quantity">-->
 <button id="start">开始</button>
 <button id="stop">暂停</button>
 
@@ -52,49 +52,8 @@
 <!--    # data area-->
     <div class="tbl-content">
         <table cellpadding="0" cellspacing="0" border="0">
-            <tbody class="insert">
-                <tr>
-                    <td class="datetime">2020/12/31 00:59:59.134</td>
-                    <td class="epc">123456000000030100134038</td>
-                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
-                    <td class="common_style">0040</td>
-                    <td class="common_style">-90</td>
-                    <td class="common_style">900M</td>
-                    <td class="common_style">79</td>
-                    <td class="common_style">20</td>
-                </tr>
+            <tbody id="insert">
 
-                <tr>
-                    <td class="datetime">2020/12/31 00:59:59.134</td>
-                    <td class="epc">123456000000030100134345</td>
-                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
-                    <td class="common_style">8040</td>
-                    <td class="common_style">-94</td>
-                    <td class="common_style">800M</td>
-                    <td class="common_style">79</td>
-                    <td class="common_style">20</td>
-                </tr>
-
-            <tr>
-                    <td class="datetime">2020/12/31 00:59:59.134</td>
-                    <td class="epc">123456000000030100134345</td>
-                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
-                    <td class="common_style">8040</td>
-                    <td class="common_style">-94</td>
-                    <td class="common_style">800M</td>
-                    <td class="common_style">79</td>
-                    <td class="common_style">20</td>
-                </tr>
-            <tr>
-                    <td class="datetime">2020/12/31 00:59:59.134</td>
-                    <td class="epc">123456000000030100134345</td>
-                    <td class="tid">ABCDHGJHGJHGGKKLJHGKJH78</td>
-                    <td class="common_style">8040</td>
-                    <td class="common_style">-94</td>
-                    <td class="common_style">800M</td>
-                    <td class="common_style">79</td>
-                    <td class="common_style">20</td>
-                </tr>
             </tbody>
         </table>
     </div>
@@ -133,18 +92,36 @@
             //接收do_something方法返回的数据
             socket.on('do_somrthing', function (res) {
 
-                    var quantity = $('#quantity').val();
-                    if (quantity < numbers_received.length){numbers_received.length = quantity;}
-                    if (numbers_received.length >= quantity){numbers_received.shift();}
-                    numbers_received.push(res.num);
-                    // console.log(numbers_received)
-                    numbers_string = '';
-                    for (var i = 0; i < numbers_received.length; i++){
-                        $('.insert').html('');
-                        numbers_string = numbers_string + '<tr>' + '<td>' + numbers_received[i].toString() + '</td>' + '</tr>';
-                        $('.insert').html(numbers_string);
-                    }
+                    // var quantity = $('#quantity').val();
+                    // if (quantity < numbers_received.length){numbers_received.length = quantity;}
+                    // if (numbers_received.length >= quantity){numbers_received.shift();}
+                    // numbers_received.push(res.num);
+                    // // console.log(numbers_received)
+                    // numbers_string = '';
+                    // for (var i = 0; i < numbers_received.length; i++){
+                    //     $('.insert').html('');
+                    //     numbers_string = numbers_string + '<tr>' + '<td>' + numbers_received[i].toString() + '</td>' + '</tr>';
+                    //     $('.insert').html(numbers_string);
+                    // }
 
+                    if (document.getElementById(res.data.Epc)){
+                        var rssi = document.getElementById(res.data.Epc).childNodes[4];
+                        var status = document.getElementById(res.data.Epc).childNodes[3];
+                        rssi.innerHTML = res.data.Rssi;
+                        status.innerHTML = res.data.Status
+                    }else {
+                        console.log(res.data.Time)
+                        $('#insert').append('<tr id='+ res.data.Epc + '>' +
+                                                '<td class="datetime">' + res.data.Time + '</td>' +
+                                                '<td class="epc">' + res.data.Epc + '</td>' +
+                                                '<td class="tid">' + res.data.Tid + '</td>' +
+                                                '<td class="common_style">' + res.data.Status + '</td>' +
+                                                '<td class="common_style">' + res.data.Rssi + '</td>' +
+                                                '<td class="common_style">' + '800M' + '</td>' +
+                                                '<td class="common_style">' + res.data.Distance + '</td>' +
+                                                '<td class="common_style">' + res.data.dB + '</td>' +
+                                            '</tr>')
+                    }
 
 
             });
