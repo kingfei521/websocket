@@ -2,12 +2,13 @@ import csv
 import random
 import threading
 from threading import Lock, Thread, Event
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
 from loguru import logger
 import eventlet
 
+from model import Rfid
 
 async_mode = None
 app = Flask(__name__)
@@ -29,6 +30,26 @@ logger.add('flask.log')
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/search')
+def search():
+    return render_template('search.html')
+
+
+@app.route('/db', methods=['POST'])
+def find_db():
+    """
+    数据库页面获取展示
+    :return:
+    """
+    date_time = request.get_json()
+    Query_conditions = str(date_time['data_time']).replace('-', '/')
+    name = str(date_time['db_name'])
+    if date_time:
+        result = Rfid.find_data_from_db(db_name=name, condition=Query_conditions)
+        return {'code': 200, "msg": result}
+    else:
+        return {'code':404}
 
 
 def ack(info: str):

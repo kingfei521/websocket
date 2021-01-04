@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>查询数据库</title>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/style2.css" />
+    <!--日历样式-->
+    <link rel="stylesheet" href="../static/css/calendar.css"> <!--日期日历样式-->
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<style>
+    *{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    body{
+        font-family: Helvetica;
+        -webkit-font-smoothing: antialiased;
+        background: rgba( 71, 147, 227, 1);
+    }
+    h2{
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+        padding: 30px 0;
+    }
+
+    /* Table Styles */
+
+    .table-wrapper{
+        margin: 10px 70px 70px;
+        box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    }
+
+    .fl-table {
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+        background-color: white;
+    }
+
+    .fl-table td, .fl-table th {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .fl-table td {
+        border-right: 1px solid #f8f8f8;
+        font-size: 12px;
+    }
+
+    .fl-table thead th {
+        color: #ffffff;
+        background: #4FC3A1;
+    }
+
+
+    .fl-table thead th:nth-child(odd) {
+        color: #ffffff;
+        background: #324960;
+    }
+
+    .fl-table tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+
+/* Responsive */
+
+    @media (max-width: 767px) {
+        .fl-table {
+            display: block;
+            width: 100%;
+        }
+        .table-wrapper:before{
+            content: "Scroll horizontally >";
+            display: block;
+            text-align: right;
+            font-size: 11px;
+            color: white;
+            padding: 0 0 10px;
+        }
+        .fl-table thead, .fl-table tbody, .fl-table thead th {
+            display: block;
+        }
+        .fl-table thead th:last-child{
+            border-bottom: none;
+        }
+        .fl-table thead {
+            float: left;
+        }
+        .fl-table tbody {
+            width: auto;
+            position: relative;
+            overflow-x: auto;
+        }
+        .fl-table td, .fl-table th {
+            padding: 20px .625em .625em .625em;
+            height: 60px;
+            vertical-align: middle;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            overflow-y: auto;
+            width: 120px;
+            font-size: 13px;
+            text-overflow: ellipsis;
+        }
+        .fl-table thead th {
+            text-align: left;
+            border-bottom: 1px solid #f7f7f9;
+        }
+        .fl-table tbody tr {
+            display: table-cell;
+        }
+        .fl-table tbody tr:nth-child(odd) {
+            background: none;
+        }
+        .fl-table tr:nth-child(even) {
+            background: transparent;
+        }
+        .fl-table tr td:nth-child(odd) {
+            background: #F8F8F8;
+            border-right: 1px solid #E6E4E4;
+        }
+        .fl-table tr td:nth-child(even) {
+            border-right: 1px solid #E6E4E4;
+        }
+        .fl-table tbody td {
+            display: block;
+            text-align: center;
+        }
+
+
+    }
+
+
+    .row input {
+	width: 50%;
+	height: 34px;
+    }
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<h2>调整浏览器窗口大小查看效果</h2>
+
+<div class="input-group" style="margin-left: 70px; width: 700px; margin-bottom: 10px">
+    <input class="form-control" type="search" id="startTime" size="15" placeholder="查询时间" name="date_time"></input>
+</div>
+
+<a id='ldbr' class="subbutton" style="margin-bottom: 10px;margin-left: 70px;" name="ldbr" type="submit">DataSheet1</a>
+<a id='gx' class="subbutton" style="margin-bottom: 10px;margin-left: 70px;" name="gx" type="submit">DataSheet2</a>
+
+
+
+
+<div class="input-group" style="margin-left: 70px; width: 700px">
+    <div class="input-group-addon">过滤条件</div>
+    <input class="form-control" type="search" id="input-filter" size="15" placeholder="输入过滤条件"></input>
+</div>
+
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Time</th>
+            <th>EPC</th>
+            <th>TID</th>
+            <th>Status</th>
+            <th>RSSI</th>
+            <th>Distance</th>
+            <th>Angle </th>
+            <th>dB</th>
+        </tr>
+        </thead>
+        <tbody class="show_db">
+        <tbody>
+    </table>
+</div>
+
+<script src="../static/js/calendar.js"></script>  <!--日期日历插件-->
+<script type="text/javascript">
+    <!--日历插件中的方法调用-->
+    $('#startTime').datePicker({
+        okFunc: function (date) {
+            console.log(date)
+        }
+    });
+    //过滤条件js事件
+    $(function() {
+      $('#input-filter').keyup(function(){
+        $('table tbody tr').hide().filter(":contains('" +($(this).val()) + "')").show();
+      }).keyup();//DOM加载完时，绑定事件完成之后立即触发
+    });
+
+    //点击向数据库发送请求
+    $(".subbutton").on('click',function () {
+        var datrtime = document.getElementById('startTime').value
+        if (!datrtime){
+            alert('请输入查询时间')
+        }
+        else {
+            var read_name = $(this).attr('name');
+
+            // alert(read_name)
+            var Udata = JSON.stringify({"db_name":read_name, "data_time": datrtime}) //将一个JavaScript值（对象或者数组）转换为一个json字符串
+            //ajax请求后端
+
+            $.ajax({
+                url: '/db',
+                type: 'POST',
+                data: Udata,
+                dataType: 'json', //返回的数据格式
+                contentType: 'application/json;charset=utf-8', //发送数据至服务器的编码类型
+                success:function (data) {
+                    var show_list = data.msg;
+                    // alert(show_list.length)
+                    if (read_name == 'gx'){
+                        var colors = '#000000'
+                    }else {
+                        var colors = '#2315ff'
+                    }
+                    for (var i=0; i<show_list.length; i++){
+                        $('.show_db').append("<tr style='color:" + colors + "'>" +
+                                                '<td>' + show_list[i][0] + '</td>' +
+                                                '<td>' + show_list[i][1] + '</td>' +
+                                                '<td>' + show_list[i][2] + '</td>' +
+                                                '<td>' + show_list[i][3] + '</td>' +
+                                                '<td>' + show_list[i][4] + '</td>' +
+                                                '<td>' + show_list[i][5] + '</td>' +
+                                                '<td>' + show_list[i][6] + '</td>' +
+                                                '<td>' + show_list[i][7] + '</td>' +
+                                            "</tr>"
+                        );
+
+
+                    }
+                },
+                error:function (error){
+                    console.log(error)
+                }
+            });
+
+        }
+
+    });
+
+
+
+</script>
+
+</body>
+</html>

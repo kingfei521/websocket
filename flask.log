@@ -1,4 +1,7 @@
-2021-01-04 20:26:39.198 | INFO     | __main__:test_connect:46 - The client has received the message {'code': 200, 'from_server': 'Success!'}
-2021-01-04 20:26:39.200 | INFO     | __main__:ack:35 - client received is successful
-2021-01-04 20:26:39.446 | INFO     | __main__:test_connect:46 - The client has received the message {'code': 200, 'from_server': 'Success!'}
-2021-01-04 20:26:39.457 | INFO     | __main__:ack:35 - client received is successful
+2021-01-04 20:54:08.054 | INFO     | __main__:test_connect:49 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2021-01-04 20:54:08.075 | INFO     | __main__:ack:38 - client received is successful
+2021-01-04 20:54:32.283 | INFO     | __main__:test_connect:49 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2021-01-04 20:54:32.301 | INFO     | __main__:ack:38 - client received is successful
+2021-01-04 21:03:54.845 | INFO     | __main__:test_connect:67 - The client has received the message {'code': 200, 'from_server': 'Success!'}
+2021-01-04 21:03:54.847 | INFO     | __main__:ack:56 - client received is successful
+2021-01-04 21:04:08.597 | DEBUG    | __main__:stop_out:75 - True
